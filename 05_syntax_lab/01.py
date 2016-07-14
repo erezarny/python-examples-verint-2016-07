@@ -1,5 +1,4 @@
-"""
-Write a program that reads 10 numbers from
-the user and prints the largest one
-"""
-
+print "enter 10 values"
+numbers = [raw_input() for i in range (10)]
+x = max (numbers)
+print " biggest on is", x 
